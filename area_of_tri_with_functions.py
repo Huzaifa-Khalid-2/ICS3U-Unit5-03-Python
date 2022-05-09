@@ -40,6 +40,7 @@ def percentage(user_level):
 
     return number
 
+
 def main():
     # This function gets input
 
@@ -53,6 +54,7 @@ def main():
     # output
     print("Your percentage is {0} % ".format(percentages))
     print("\nDone.")
+
 
 if __name__ == "__main__":
     main()
