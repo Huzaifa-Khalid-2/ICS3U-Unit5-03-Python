@@ -2,7 +2,7 @@
 
 # Created by: Huzaifa Khalid
 # Created on: March 2022
-# This program calculates the area of a triangle with functions
+# This program takes a level and shows the percentage
 
 
 def percentage(user_level):
