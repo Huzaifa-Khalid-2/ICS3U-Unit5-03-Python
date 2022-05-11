@@ -5,38 +5,38 @@
 # This program takes a level and shows the percentage
 
 
-def percentage(user_level):
+def percentage(level):
     # calculate temperature
 
     # process & output
-    if user_level == "4+":
+    if level == "4+":
         number = 97
-    elif user_level == "4":
+    elif level == "4":
         number = 89
-    elif user_level == "4-":
+    elif level == "4-":
         number = 80
-    elif user_level == "3+":
+    elif level == "3+":
         number = 78
-    elif user_level == "3":
+    elif level == "3":
         number = 75
-    elif user_level == "3-":
+    elif level == "3-":
         number = 70
-    elif user_level == "2+":
+    elif level == "2+":
         number = 68
-    elif user_level == "2":
+    elif level == "2":
         number = 64
-    elif user_level == "2-":
+    elif level == "2-":
         number = 60
-    elif user_level == "1+":
+    elif level == "1+":
         number = 58
-    elif user_level == "1":
+    elif level == "1":
         number = 55
-    elif user_level == "1-":
+    elif level == "1-":
         number = 50
-    elif user_level == "R":
-        number == 30
+    elif level == "R":
+        number = 30
     else:
-        number == -1
+        number = -1
 
     return number
 
@@ -45,14 +45,14 @@ def main():
     # This function gets input
 
     # input
-    user_level = input("Enter your level and it shall be converted to a percentage: ")
+    level = input("Enter the grade and it shall be converted to a percentage: ")
     print("")
 
     # call functions
-    percentages = percentage(user_level)
+    percentages = percentage(level)
 
     # output
-    print("Your percentage is {0} % ".format(percentages))
+    print("{1} will have a percentage of {0} ".format(percentages, level))
     print("\nDone.")
 
 
